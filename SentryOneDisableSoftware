@@ -1,0 +1,6 @@
+--log into the server hosting the SqlSentry database.
+UPDATE [dbo].[License]
+SET [LicenseText] = NULL;
+Go
+update ApplicationSettings set FirstServiceLoad = 1
+GO
